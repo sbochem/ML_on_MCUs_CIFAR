@@ -1,7 +1,7 @@
 #ifndef CIFAR_IMAGE_H
 #define CIFAR_IMAGE_H
 
-static const unsigned int cifar_image_len = 784;
+static const unsigned int cifar_image_len = 3072;
 
 const unsigned char cifar_image[] = {
 			    // Channel 1
@@ -104,3 +104,4 @@ const unsigned char cifar_image[] = {
 			   153, 153, 154, 154, 156, 156, 156, 156, 153, 149, 145, 147, 149, 150, 148, 153, 157, 158, 156, 156, 156, 156, 156, 155, 154, 153, 151, 151, 151, 149, 146, 147,
 			   152, 151, 153, 154, 155, 155, 156, 156, 151, 146, 148, 154, 156, 152, 151, 154, 156, 157, 156, 156, 156, 156, 156, 155, 153, 151, 150, 150, 149, 148, 146, 146,
 			};
+#endif //CIFAR_IMAGE_H
